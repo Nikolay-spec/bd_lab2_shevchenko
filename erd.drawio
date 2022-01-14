@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T14:14:53.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gHs5PK6SHQVyfsbWSTGS" version="16.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T14:16:40.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="PNfGxk9sJJUnNykSMFYo" version="16.2.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1117" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
         <mxCell id="LXsv2TGTqIEd0U1c6CSB-44" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;u style=&quot;font-size: 10px&quot;&gt;TEAM_ID&lt;/u&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="521" y="460" width="76" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LXsv2TGTqIEd0U1c6CSB-45" value="Name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LXsv2TGTqIEd0U1c6CSB-45" value="team_name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="445" y="620" width="76" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LXsv2TGTqIEd0U1c6CSB-46" value="Logo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -221,7 +221,7 @@
         <mxCell id="LXsv2TGTqIEd0U1c6CSB-51" value="Flag" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="620" width="76" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LXsv2TGTqIEd0U1c6CSB-52" value="Password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LXsv2TGTqIEd0U1c6CSB-52" value="country_name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="287" y="620" width="76" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LXsv2TGTqIEd0U1c6CSB-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LXsv2TGTqIEd0U1c6CSB-51" target="LXsv2TGTqIEd0U1c6CSB-41">
