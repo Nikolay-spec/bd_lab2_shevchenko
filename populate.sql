@@ -6,7 +6,7 @@ VALUES ('11111', 'SomeURL1','Low/Low',		 'Lower',	  21,111111, 0001, 00000002),
 	   ('11114', 'SomeURL4','Medium/High'),	 'Fineguy',	  24,444444, 0004, 00000008),
 	   ('11115', 'SomeURL5','High/High',	 'Coolguy',	  25,555555, 0005, 00000010);
 
--- Заповнення таблиці Products
+-- Заповнення таблиці Countries
 INSERT INTO Countries
 VALUES (0001, 'SomeWhere1','SomeName1'),
 	   (0002, 'SomeWhere2','SomeName2'),
