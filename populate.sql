@@ -1,37 +1,27 @@
 -- Заповнення таблиці Players
 INSERT INTO Players
-VALUES ('11111', 'SomeURL1','Low/Low',		 'Lower',	  21,111111, 0001, 00000002),
-	   ('11112', 'SomeURL2','Low/Medium',	 'Justplayer',22,222222, 0002, 00000004),	
-	   ('11113', 'SomeURL3','Medium/Medium', 'Normal',	  23,333333, 0003, 00000006),
-	   ('11114', 'SomeURL4','Medium/High'),	 'Fineguy',	  24,444444, 0004, 00000008),
-	   ('11115', 'SomeURL5','High/High',	 'Coolguy',	  25,555555, 0005, 00000010);
+VALUES     ('158023', 'https://cdn.sofifa.org/players/4/19/158023.png','Medium/ Medium', 'L. Messi',	     31, 565 000, 0001, 0001),
+	   ('20801',  'https://cdn.sofifa.org/players/4/19/20801.png', 'High/ Low',	 'Cristiano Ronaldo',33, 405 000, 0002, 0002),	
+	   ('190871', 'https://cdn.sofifa.org/players/4/19/190871.png','High/ Medium',   'Neymar Jr',	     26, 290 000, 0003, 0003),
+	   ('193080', 'https://cdn.sofifa.org/players/4/19/193080.png','Medium/ Medium'),'De Gea',	     27, 260 000, 0004, 0004),
+	   ('192985', 'https://cdn.sofifa.org/players/4/19/192985.png','High/ High',	 'K. De Bruyne',     27, 355 000, 0005, 0005);
 
--- Заповнення таблиці Countries
+-- Заповнення таблиці Products
 INSERT INTO Countries
-VALUES (0001, 'SomeWhere1','SomeName1'),
-	   (0002, 'SomeWhere2','SomeName2'),
-	   (0003, 'SomeWhere3','SomeName3'),
-	   (0004, 'SomeWhere4','SomeName4'),
-	   (0005, 'SomeWhere5','SomeName5'),
-	   (0006, 'SomeWhere6','SomeName6'),
-	   (0007, 'SomeWhere7','SomeName7'),
-	   (0008, 'SomeWhere8','SomeName8'),
-	   (0009, 'SomeWhere9','SomeName9'),
-	   (0010, 'SomeWhere10','SomeName10')
+VALUES 	   (0001, 'Argentina',  'https://cdn.sofifa.org/flags/52.png'),
+	   (0002, 'Portugal',   'https://cdn.sofifa.org/flags/38.png'),
+	   (0003, 'Brazil',	'https://cdn.sofifa.org/flags/54.png'),
+	   (0004, 'Spain',	'https://cdn.sofifa.org/flags/45.png'),
+	   (0005, 'Belgium',	'https://cdn.sofifa.org/flags/7.png')
 	   ;
 
 -- Заповнення таблиці Clubs
 INSERT INTO Clubs
-VALUES (00000001, 'SomeIMG1', 'Guys1'),
-	   (00000002, 'SomeIMG2', 'Guys2'),
-	   (00000003, 'SomeIMG3', 'Guys3'),
-	   (00000004, 'SomeIMG4', 'Guys4'),
-	   (00000005, 'SomeIMG5', 'Guys5'),
-	   (00000006, 'SomeIMG6', 'Guys6'),
-	   (00000007, 'SomeIMG7', 'Guys7'),
-	   (00000008, 'SomeIMG8', 'Guys8'),
-	   (00000009, 'SomeIMG9', 'Guys9'),
-	   (00000010, 'SomeIMG10','Guys10');
+VALUES 	   (0001, 'https://cdn.sofifa.org/teams/2/light/241.png', 'FC Barcelona'),
+	   (0002, 'https://cdn.sofifa.org/teams/2/light/45.png', 'Juventus'),
+	   (0003, 'https://cdn.sofifa.org/teams/2/light/73.png', 'Paris Saint-Germain'),
+	   (0004, 'https://cdn.sofifa.org/teams/2/light/11.png', 'Manchester United'),
+	   (0005, 'https://cdn.sofifa.org/teams/2/light/10.png', 'Manchester City');
 
 
 
