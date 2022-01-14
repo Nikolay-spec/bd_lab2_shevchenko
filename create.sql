@@ -3,6 +3,8 @@ CREATE TABLE Players
 (
   player_id         char(50)      UNIQUE NOT NULL,
   player_photo      char(100)     UNIQUE NOT NULL,
+  player_workrate   char(50)      NOT NULL,
+  player_wage       int           NOT NULL,
   country_id        int           NOT NULL,
   team_id           int           NOT NULL,
   player_name       char(50)      NOT NULL,
