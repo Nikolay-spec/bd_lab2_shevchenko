@@ -18,11 +18,11 @@ VALUES (0001, 'FC Barcelona'),
 
 -- Заповнення таблиці Players
 INSERT INTO Players
-VALUES (158023, 'https://cdn.sofifa.org/players/4/19/158023.png','Medium/ Medium', 'L. Messi',	     31, 565000, 0001, 0001),
-	   (20801,  'https://cdn.sofifa.org/players/4/19/20801.png', 'High/ Low',	 'Cristiano Ronaldo',33, 405000, 0002, 0002),	
-	   (190871, 'https://cdn.sofifa.org/players/4/19/190871.png','High/ Medium',   'Neymar Jr',	     26, 290000, 0003, 0003),
-	   (193080, 'https://cdn.sofifa.org/players/4/19/193080.png','Medium/ Medium','DeGea',	     27, 260000, 0004, 0004),
-	   (192985, 'https://cdn.sofifa.org/players/4/19/192985.png','High/ High',	 'K. De Bruyne',     27, 355000, 0005, 0005);
+VALUES (158023, 'https://cdn.sofifa.org/players/4/19/158023.png','Medium/ Medium', 'L. Messi',	     31, '€565K', 0001, 0001),
+	   (20801,  'https://cdn.sofifa.org/players/4/19/20801.png', 'High/ Low',	 'Cristiano Ronaldo',33, '€405K', 0002, 0002),	
+	   (190871, 'https://cdn.sofifa.org/players/4/19/190871.png','High/ Medium',   'Neymar Jr',	     26, '€290K', 0003, 0003),
+	   (193080, 'https://cdn.sofifa.org/players/4/19/193080.png','Medium/ Medium','DeGea',	     27, '€260K', 0004, 0004),
+	   (192985, 'https://cdn.sofifa.org/players/4/19/192985.png','High/ High',	 'K. De Bruyne',     27, '€355K', 0005, 0005);
 
 
 
