@@ -15,13 +15,11 @@ CREATE TABLE Countries
 (
   country_id        int           UNIQUE NOT NULL,
   country_name      char(50)      NULL,
-  country_flag      char(100)     NULL 
 );
 
 CREATE TABLE Clubs
 (
   team_id           int           UNIQUE NOT NULL,
-  team_logo         char(100)     UNIQUE NOT NULL,
   team_name         char(50)      UNIQUE NOT NULL
 );
 
