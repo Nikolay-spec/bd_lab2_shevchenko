@@ -6,7 +6,7 @@ CREATE TABLE Players
   player_workrate   char(50)      NOT NULL,
   player_name       char(50)      NOT NULL,
   player_age        int           NOT NULL, 
-  player_wage       int           NOT NULL,
+  player_wage       char(10)      NOT NULL,
   country_id        int           NOT NULL,
   team_id           int           NOT NULL 
 );
