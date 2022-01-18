@@ -1,6 +1,6 @@
 import psycopg2
 import matplotlib.pyplot as plt
-username = 'postgres'
+username = 'Shevchenko_Nikolay'
 password = 'Sapience69'
 database = 'postgres'
 host = 'localhost'
@@ -30,6 +30,8 @@ with con:
         print(row)
         number_lst.append(row[0])
 
+for i in range(len(number_lst)):
+    number_lst[i] = int(number_lst[i].replace("€", "").replace("K", "")) * 1000
 
 plt.hist(number_lst,width = 10000)
 plt.title("Wage of players per month in dollars")
