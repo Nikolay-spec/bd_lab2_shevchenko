@@ -1,20 +1,20 @@
 
 -- Заповнення таблиці Countries
 INSERT INTO Countries
-VALUES (0001, 'Argentina',  'https://cdn.sofifa.org/flags/52.png'),
-	   (0002, 'Portugal',   'https://cdn.sofifa.org/flags/38.png'),
-	   (0003, 'Brazil',	'https://cdn.sofifa.org/flags/54.png'),
-	   (0004, 'Spain',	'https://cdn.sofifa.org/flags/45.png'),
-	   (0005, 'Belgium',	'https://cdn.sofifa.org/flags/7.png')
+VALUES (0001, 'Argentina'),
+	   (0002, 'Portugal'),
+	   (0003, 'Brazil'),
+	   (0004, 'Spain'),
+	   (0005, 'Belgium')
 	   ;
 
 -- Заповнення таблиці Clubs
 INSERT INTO Clubs
-VALUES (0001, 'https://cdn.sofifa.org/teams/2/light/241.png', 'FC Barcelona'),
-	   (0002, 'https://cdn.sofifa.org/teams/2/light/45.png', 'Juventus'),
-	   (0003, 'https://cdn.sofifa.org/teams/2/light/73.png', 'Paris Saint-Germain'),
-	   (0004, 'https://cdn.sofifa.org/teams/2/light/11.png', 'Manchester United'),
-	   (0005, 'https://cdn.sofifa.org/teams/2/light/10.png', 'Manchester City');
+VALUES (0001, 'FC Barcelona'),
+	   (0002, 'Juventus'),
+	   (0003, 'Paris Saint-Germain'),
+	   (0004, 'Manchester United'),
+	   (0005, 'Manchester City');
 
 -- Заповнення таблиці Players
 INSERT INTO Players
