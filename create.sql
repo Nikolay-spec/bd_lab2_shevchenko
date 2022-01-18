@@ -14,7 +14,7 @@ CREATE TABLE Players
 CREATE TABLE Countries
 (
   country_id        int           UNIQUE NOT NULL,
-  country_name      char(50)      NULL,
+  country_name      char(50)      NULL
 );
 
 CREATE TABLE Clubs
